@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAB211E62702635600C4FD13 /* LaboratoryWork3.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211E52702635600C4FD13 /* LaboratoryWork3.c */; };
+		FAB211E62702635600C4FD13 /* 3.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211E52702635600C4FD13 /* 3.c */; };
+		FAB211EE270268C300C4FD13 /* 1.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211ED270268C300C4FD13 /* 1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		FAB211E22702635600C4FD13 /* LaboratoryWorks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaboratoryWorks; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB211E52702635600C4FD13 /* LaboratoryWork3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LaboratoryWork3.c; sourceTree = "<group>"; };
+		FAB211E52702635600C4FD13 /* 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.c; sourceTree = "<group>"; };
+		FAB211ED270268C300C4FD13 /* 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		FAB211E42702635600C4FD13 /* LaboratoryWorks */ = {
 			isa = PBXGroup;
 			children = (
-				FAB211E52702635600C4FD13 /* LaboratoryWork3.c */,
+				FAB211EC2702684300C4FD13 /* Лабораторная работа 3 */,
 			);
 			path = LaboratoryWorks;
+			sourceTree = "<group>";
+		};
+		FAB211EC2702684300C4FD13 /* Лабораторная работа 3 */ = {
+			isa = PBXGroup;
+			children = (
+				FAB211E52702635600C4FD13 /* 3.c */,
+				FAB211ED270268C300C4FD13 /* 1.c */,
+			);
+			path = "Лабораторная работа 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB211E62702635600C4FD13 /* LaboratoryWork3.c in Sources */,
+				FAB211E62702635600C4FD13 /* 3.c in Sources */,
+				FAB211EE270268C300C4FD13 /* 1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
