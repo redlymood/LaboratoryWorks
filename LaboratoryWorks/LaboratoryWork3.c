@@ -1,14 +1,11 @@
-//
-//  main.c
-//  LaboratoryWorks
-//
-//  Created by Елатонцева Полина on 27.09.2021.
-//
-
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    float a, b;
+    printf("Введите а\n");
+    scanf("%f", &a);
+    printf("Введите b\n");
+    scanf("%f", &b);
+    printf("%f\n", (a + b) / 2);
     return 0;
 }
