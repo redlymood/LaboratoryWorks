@@ -1,8 +1,13 @@
-//
-//  2.c
-//  LaboratoryWorks
-//
-//  Created by Елатонцева Полина on 28.09.2021.
-//
-
 #include <stdio.h>
+
+int main(void)
+{
+    float const pi = 3.14;
+    float d;
+    
+    scanf("%f", &d);
+    
+    printf("L = %f", pi * d);
+    
+    return 0;
+}
