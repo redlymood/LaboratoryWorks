@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAB211E62702635600C4FD13 /* 3.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211E52702635600C4FD13 /* 3.c */; };
-		FAB211EE270268C300C4FD13 /* 1.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211ED270268C300C4FD13 /* 1.c */; };
-		FAB211F327026C3E00C4FD13 /* 2.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211F227026C3E00C4FD13 /* 2.c */; };
-		FAB211F527026D6F00C4FD13 /* 4.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211F427026D6F00C4FD13 /* 4.c */; };
-		FAB211F727026E9300C4FD13 /* 5.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211F627026E9300C4FD13 /* 5.c */; };
+		FAB211F9270274B300C4FD13 /* 1.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211F8270274B300C4FD13 /* 1.c */; };
+		FAB211FB270274C100C4FD13 /* 2.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211FA270274C100C4FD13 /* 2.c */; };
+		FAB211FD270274CE00C4FD13 /* 3.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211FC270274CE00C4FD13 /* 3.c */; };
+		FAB211FF270274DB00C4FD13 /* 4.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB211FE270274DB00C4FD13 /* 4.c */; };
+		FAB21201270274E500C4FD13 /* 5.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB21200270274E500C4FD13 /* 5.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,11 +28,11 @@
 
 /* Begin PBXFileReference section */
 		FAB211E22702635600C4FD13 /* LaboratoryWorks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaboratoryWorks; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB211E52702635600C4FD13 /* 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.c; sourceTree = "<group>"; };
-		FAB211ED270268C300C4FD13 /* 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1.c; sourceTree = "<group>"; };
-		FAB211F227026C3E00C4FD13 /* 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2.c; sourceTree = "<group>"; };
-		FAB211F427026D6F00C4FD13 /* 4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4.c; sourceTree = "<group>"; };
-		FAB211F627026E9300C4FD13 /* 5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5.c; sourceTree = "<group>"; };
+		FAB211F8270274B300C4FD13 /* 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = 1.c; path = ../../../../../../1.c; sourceTree = "<group>"; };
+		FAB211FA270274C100C4FD13 /* 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = 2.c; path = ../../../../../../2.c; sourceTree = "<group>"; };
+		FAB211FC270274CE00C4FD13 /* 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = 3.c; path = ../../../../../../3.c; sourceTree = "<group>"; };
+		FAB211FE270274DB00C4FD13 /* 4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = 4.c; path = ../../../../../../4.c; sourceTree = "<group>"; };
+		FAB21200270274E500C4FD13 /* 5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = 5.c; path = ../../../../../../5.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +73,11 @@
 		FAB211EC2702684300C4FD13 /* Лабораторная работа 4 */ = {
 			isa = PBXGroup;
 			children = (
-				FAB211E52702635600C4FD13 /* 3.c */,
-				FAB211ED270268C300C4FD13 /* 1.c */,
-				FAB211F227026C3E00C4FD13 /* 2.c */,
-				FAB211F427026D6F00C4FD13 /* 4.c */,
-				FAB211F627026E9300C4FD13 /* 5.c */,
+				FAB211F8270274B300C4FD13 /* 1.c */,
+				FAB211FA270274C100C4FD13 /* 2.c */,
+				FAB211FC270274CE00C4FD13 /* 3.c */,
+				FAB211FE270274DB00C4FD13 /* 4.c */,
+				FAB21200270274E500C4FD13 /* 5.c */,
 			);
 			path = "Лабораторная работа 4";
 			sourceTree = "<group>";
@@ -138,11 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB211F527026D6F00C4FD13 /* 4.c in Sources */,
-				FAB211F327026C3E00C4FD13 /* 2.c in Sources */,
-				FAB211E62702635600C4FD13 /* 3.c in Sources */,
-				FAB211F727026E9300C4FD13 /* 5.c in Sources */,
-				FAB211EE270268C300C4FD13 /* 1.c in Sources */,
+				FAB211FF270274DB00C4FD13 /* 4.c in Sources */,
+				FAB211FD270274CE00C4FD13 /* 3.c in Sources */,
+				FAB211FB270274C100C4FD13 /* 2.c in Sources */,
+				FAB21201270274E500C4FD13 /* 5.c in Sources */,
+				FAB211F9270274B300C4FD13 /* 1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
